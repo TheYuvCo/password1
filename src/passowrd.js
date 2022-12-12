@@ -9,7 +9,7 @@ function Password(props) {
           setPassowrd('weak!')
         }
         if(delta >= 100 && delta <= 1000000){
-            setPassowrd('medium!')
+            setPassowrd('medium!!!')
         }
         if(delta > 1000000){
             setPassowrd('strong!')
